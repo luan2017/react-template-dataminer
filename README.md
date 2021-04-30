@@ -1,5 +1,8 @@
 # React template Dataminer
 
+## Technologies applied:
+- React JS + Styled Components
+
 ## Available Scripts
 
 In the project directory, you can run:
