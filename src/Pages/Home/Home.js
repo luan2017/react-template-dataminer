@@ -1,10 +1,19 @@
 import React from 'react';
-import { Container } from './styles';
+import { Container, FirstSection, SecondSection, ThirdSection } from './styles';
 
 const Home = () => {
     return(
         <Container>
-            <h1>A new template in progress..</h1>
+            <FirstSection >
+                <div className="bock-red"></div>
+                <div className="bock-gray"></div>
+            </FirstSection>
+            <SecondSection />
+            <ThirdSection>
+                <div className="grid-item"></div>
+                <div className="grid-item"></div>
+                <div className="grid-item"></div>
+            </ThirdSection>
         </Container>
     )
 }
