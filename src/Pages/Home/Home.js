@@ -5,8 +5,8 @@ const Home = () => {
     return(
         <Container>
             <FirstSection >
-                <div className="bock-red"></div>
-                <div className="bock-gray"></div>
+                <div className="block-red"></div>
+                <div className="block-gray"></div>
             </FirstSection>
             <SecondSection />
             <ThirdSection>
